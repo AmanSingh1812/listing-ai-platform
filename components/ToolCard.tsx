@@ -1,9 +1,20 @@
 "use client";
 
-import Link from "next/link";
 import { motion } from "framer-motion";
+import Link from "next/link";
 
-export default function ToolCard({ tool }) {
+type Tool = {
+  id: string;
+  name: string;
+  description: string;
+  category: string;
+};
+
+type ToolCardProps = {
+  tool: Tool;
+};
+
+export default function ToolCard({ tool }: ToolCardProps) {
   return (
     <motion.div
       whileHover={{ scale: 1.03 }}
