@@ -1,0 +1,497 @@
+[
+  {
+    "id": "chatgpt",
+    "name": "ChatGPT",
+    "category": "Chatbot",
+    "pricing": "Free & Paid",
+    "description": "ChatGPT is a large-scale conversational AI developed by OpenAI. It excels at answering questions, generating content, writing code, analyzing text, and assisting with learning across a wide variety of domains. It supports multi-turn dialogue, memory, and deep reasoning capabilities.",
+    "logo": "/logos/chatgpt.png",
+    "website": "https://chat.openai.com"
+  },
+  {
+    "id": "gpt4o-mini",
+    "name": "GPT-4o mini",
+    "category": "Chatbot",
+    "pricing": "Free & Paid",
+    "description": "GPT-4o mini is a lightweight version of GPT-4o optimized for speed and cost efficiency. It is ideal for high-volume tasks such as chatbots, classification, summarization, and real-time interactive experiences.",
+    "logo": "/logos/gpt4o-mini.png",
+    "website": "https://openai.com"
+  },
+  {
+    "id": "claude",
+    "name": "Claude",
+    "category": "Chatbot",
+    "pricing": "Paid",
+    "description": "Claude by Anthropic is an alignment-focused AI assistant known for safety, large context windows, and high-fidelity reasoning. It is widely used for research, writing, and complex decision-making tasks.",
+    "logo": "/logos/claude.png",
+    "website": "https://www.anthropic.com"
+  },
+  {
+    "id": "claude-3-sonnet",
+    "name": "Claude 3 Sonnet",
+    "category": "Chatbot",
+    "pricing": "Paid",
+    "description": "Claude 3 Sonnet is part of Anthropic’s Claude 3 family, offering strong reasoning abilities and enterprise-level accuracy. Ideal for summarization, analysis, and high-stakes workflows such as legal and financial tasks.",
+    "logo": "/logos/claude-sonnet.png",
+    "website": "https://www.anthropic.com"
+  },
+  {
+    "id": "bard",
+    "name": "Google Gemini (formerly Bard)",
+    "category": "Chatbot",
+    "pricing": "Free",
+    "description": "Gemini is Google’s multimodal AI model supporting text, image, and code analysis. It integrates deeply with Google Search and Workspace, excelling at research, data extraction, and real-time answer generation.",
+    "logo": "/logos/bard.png",
+    "website": "https://gemini.google.com"
+  },
+  {
+    "id": "perplexity",
+    "name": "Perplexity AI",
+    "category": "Research",
+    "pricing": "Free & Paid",
+    "description": "Perplexity AI is an AI-powered research assistant that provides precise, citation-based answers. It is popular for fast information retrieval, fact checking, and academic-style exploration.",
+    "logo": "/logos/perplexity.png",
+    "website": "https://www.perplexity.ai"
+  },
+  {
+    "id": "midjourney",
+    "name": "Midjourney",
+    "category": "Image Generation",
+    "pricing": "Paid",
+    "description": "Midjourney generates high-quality artistic images from text prompts. Known for its stylistic richness, creativity, and aesthetic detail, it is widely used by designers, agencies, and creative artists.",
+    "logo": "/logos/midjourney.png",
+    "website": "https://www.midjourney.com"
+  },
+  {
+    "id": "dalle",
+    "name": "DALL·E 3",
+    "category": "Image Generation",
+    "pricing": "Free & Paid",
+    "description": "DALL·E 3 produces hyper-accurate illustrations, realistic images, and stylized artwork from text instructions. It integrates deeply with ChatGPT, enabling iterative refinement.",
+    "logo": "/logos/dalle.png",
+    "website": "https://openai.com/dall-e"
+  },
+  {
+    "id": "stable-diffusion",
+    "name": "Stable Diffusion",
+    "category": "Image Generation",
+    "pricing": "Free",
+    "description": "Stable Diffusion is an open-source image generation model enabling full customization, fine-tuning, and control over image workflows. It powers hundreds of third-party apps and creative tools.",
+    "logo": "/logos/stable-diffusion.png",
+    "website": "https://stability.ai"
+  },
+  {
+    "id": "leonardo",
+    "name": "Leonardo AI",
+    "category": "Image Generation",
+    "pricing": "Paid",
+    "description": "Leonardo AI is a creative suite designed for generating production-ready assets including art, icons, textures, and 3D resources. It includes training, upscaling, and high-quality text-to-image pipelines.",
+    "logo": "/logos/leonardo.png",
+    "website": "https://leonardo.ai"
+  },
+
+  {
+    "id": "runway",
+    "name": "Runway",
+    "category": "Video",
+    "pricing": "Paid",
+    "description": "Runway offers AI video editing, video generation, and VFX automation. It includes tools such as Gen-2 for transforming text prompts into short video clips, making it popular among filmmakers and marketers.",
+    "logo": "/logos/runway.png",
+    "website": "https://runwayml.com"
+  },
+  {
+    "id": "sora",
+    "name": "OpenAI Sora",
+    "category": "Video",
+    "pricing": "Paid",
+    "description": "Sora is OpenAI's advanced text-to-video model capable of generating realistic, coherent, and cinematic video sequences. It supports complex storytelling, physics-aware motion, and long sequences.",
+    "logo": "/logos/sora.png",
+    "website": "https://openai.com/sora"
+  },
+  {
+    "id": "pika",
+    "name": "Pika Labs",
+    "category": "Video",
+    "pricing": "Free & Paid",
+    "description": "Pika Labs is a generative video platform turning ideas and scripts into animated scenes. It specializes in stylized visuals and quick video drafts for marketing, advertising, and animation.",
+    "logo": "/logos/pika.png",
+    "website": "https://pika.art"
+  },
+  {
+    "id": "synthesia",
+    "name": "Synthesia",
+    "category": "Video",
+    "pricing": "Paid",
+    "description": "Synthesia creates AI videos featuring realistic avatars and voiceover narration. It is widely used for training videos, marketing content, and explainer videos without requiring cameras or microphones.",
+    "logo": "/logos/synthesia.png",
+    "website": "https://www.synthesia.io"
+  },
+
+  {
+    "id": "otter",
+    "name": "Otter.ai",
+    "category": "Transcription",
+    "pricing": "Free & Paid",
+    "description": "Otter provides real-time meeting transcription, speaker identification, and automated summarization. It integrates with Zoom, Google Meet, and Microsoft Teams for collaborative workflows.",
+    "logo": "/logos/otter.png",
+    "website": "https://otter.ai"
+  },
+  {
+    "id": "assemblyai",
+    "name": "AssemblyAI",
+    "category": "Transcription",
+    "pricing": "Paid",
+    "description": "AssemblyAI offers enterprise-grade speech-to-text APIs with accuracy-optimized transcription, sentiment analysis, content moderation, and speech summarization capabilities.",
+    "logo": "/logos/assemblyai.png",
+    "website": "https://www.assemblyai.com"
+  },
+
+  {
+    "id": "notion-ai",
+    "name": "Notion AI",
+    "category": "Productivity",
+    "pricing": "Paid",
+    "description": "Notion AI enhances documents and workspaces with automated summarization, content generation, task classification, and idea expansion. Integrated natively with Notion workspace.",
+    "logo": "/logos/notion-ai.png",
+    "website": "https://www.notion.so/ai"
+  },
+  {
+    "id": "tability",
+    "name": "Tability",
+    "category": "Productivity",
+    "pricing": "Paid",
+    "description": "Tability is an AI-powered OKR and goal-tracking platform that generates updates, insights, and action recommendations. Designed for teams, leaders, and project management workflows.",
+    "logo": "/logos/tability.png",
+    "website": "https://tability.io"
+  },
+
+  {
+    "id": "murf",
+    "name": "Murf",
+    "category": "Voice",
+    "pricing": "Paid",
+    "description": "Murf is an AI voice generator providing realistic voiceovers for ads, presentations, podcasts, and e-learning material. It includes voice cloning, tonal control, and editing tools.",
+    "logo": "/logos/murf.png",
+    "website": "https://murf.ai"
+  },
+  {
+    "id": "11labs",
+    "name": "ElevenLabs",
+    "category": "Voice",
+    "pricing": "Paid",
+    "description": "ElevenLabs is a leading AI voice synthesis platform enabling hyper-realistic voices, multilingual narration, voice cloning, and generative audio content production.",
+    "logo": "/logos/elevenlabs.png",
+    "website": "https://elevenlabs.io"
+  },
+
+  {
+    "id": "copyai",
+    "name": "Copy.ai",
+    "category": "Writing",
+    "pricing": "Free & Paid",
+    "description": "Copy.ai helps teams generate marketing copy, landing pages, emails, and product descriptions. It includes automated workflows and templates for business writing.",
+    "logo": "/logos/copyai.png",
+    "website": "https://www.copy.ai"
+  },
+  {
+    "id": "jasper",
+    "name": "Jasper",
+    "category": "Writing",
+    "pricing": "Paid",
+    "description": "Jasper is an AI writing assistant tailored for marketing teams. It generates branded content, blogs, ads, and email campaigns with advanced tone control.",
+    "logo": "/logos/jasper.png",
+    "website": "https://www.jasper.ai"
+  },
+
+  {
+    "id": "replit-ghostwriter",
+    "name": "Replit Ghostwriter",
+    "category": "Code Assistant",
+    "pricing": "Paid",
+    "description": "Replit Ghostwriter provides real-time code suggestions, debugging help, and code explanations directly inside the Replit environment. Designed for developers and students.",
+    "logo": "/logos/replit.png",
+    "website": "https://replit.com/site/ghostwriter"
+  },
+  {
+    "id": "tabnine",
+    "name": "Tabnine",
+    "category": "Code Assistant",
+    "pricing": "Paid",
+    "description": "Tabnine is an AI pair-programming assistant offering contextual code completion across major IDEs. It supports multiple languages and team-focused models.",
+    "logo": "/logos/tabnine.png",
+    "website": "https://www.tabnine.com"
+  },
+  {
+    "id": "copilot",
+    "name": "GitHub Copilot",
+    "category": "Code Assistant",
+    "pricing": "Paid",
+    "description": "GitHub Copilot suggests code, functions, and debugging fixes using OpenAI models. It integrates into VS Code, JetBrains, and Neovim with high developer adoption.",
+    "logo": "/logos/copilot.png",
+    "website": "https://github.com/features/copilot"
+  },
+
+  {
+    "id": "cursor",
+    "name": "Cursor AI",
+    "category": "Code Assistant",
+    "pricing": "Free & Paid",
+    "description": "Cursor is an AI coding environment designed for full-project reasoning and multi-file refactoring. It is a preferred tool for AI-accelerated software development.",
+    "logo": "/logos/cursor.png",
+    "website": "https://cursor.sh"
+  },
+
+  {
+    "id": "tome",
+    "name": "Tome",
+    "category": "Presentation",
+    "pricing": "Free & Paid",
+    "description": "Tome transforms text prompts into visual presentations using AI-powered layout generation, image creation, and storytelling capabilities.",
+    "logo": "/logos/tome.png",
+    "website": "https://tome.app"
+  },
+  {
+    "id": "gamma",
+    "name": "Gamma",
+    "category": "Presentation",
+    "pricing": "Free & Paid",
+    "description": "Gamma is an AI-first presentation and document creation tool that builds clean visual decks and webpages without requiring design expertise.",
+    "logo": "/logos/gamma.png",
+    "website": "https://gamma.app"
+  },
+
+  {
+    "id": "humata",
+    "name": "Humata",
+    "category": "Document Q&A",
+    "pricing": "Paid",
+    "description": "Humata lets users upload documents and ask questions about them. It extracts meanings, summarizes long PDFs, and answers complex queries.",
+    "logo": "/logos/humata.png",
+    "website": "https://www.humata.ai"
+  },
+
+  {
+    "id": "fireflies",
+    "name": "Fireflies.ai",
+    "category": "Meeting",
+    "pricing": "Free & Paid",
+    "description": "Fireflies AI transcribes meetings, assigns tasks, identifies highlights, and automates meeting notes. Works with Zoom, Meet, Teams, and Slack.",
+    "logo": "/logos/fireflies.png",
+    "website": "https://fireflies.ai"
+  },
+  {
+    "id": "cogram",
+    "name": "Cogram",
+    "category": "Meeting",
+    "pricing": "Paid",
+    "description": "Cogram automatically generates meeting notes, summaries, and follow-up tasks. Designed for sales, engineering, and customer success teams.",
+    "logo": "/logos/cogram.png",
+    "website": "https://www.cogram.com"
+  },
+
+  {
+    "id": "figma-ai",
+    "name": "Figma AI",
+    "category": "Design",
+    "pricing": "Paid",
+    "description": "Figma AI speeds up UI/UX workflows with automated layouts, copy generation, asset creation, and brainstorming tools inside Figma.",
+    "logo": "/logos/figma-ai.png",
+    "website": "https://www.figma.com"
+  },
+  {
+    "id": "kittl",
+    "name": "Kittl",
+    "category": "Design",
+    "pricing": "Free & Paid",
+    "description": "Kittl is an AI-powered graphics tool enabling designers to quickly create logos, posters, illustrations, and typographic artworks.",
+    "logo": "/logos/kittl.png",
+    "website": "https://kittl.com"
+  },
+
+  {
+    "id": "learninglab",
+    "name": "LearningLab AI",
+    "category": "Education",
+    "pricing": "Free",
+    "description": "LearningLab uses AI to personalize study plans, generate practice questions, create revision material, and track learning progress.",
+    "logo": "/logos/learninglab.png",
+    "website": "https://learninglab.ai"
+  },
+
+  {
+    "id": "quizlet",
+    "name": "Quizlet Q-Chat",
+    "category": "Education",
+    "pricing": "Free & Paid",
+    "description": "Quizlet Q-Chat acts as an AI tutor generating practice quizzes, flashcards, explanations, and interactive study conversations.",
+    "logo": "/logos/quizlet.png",
+    "website": "https://quizlet.com"
+  },
+
+  {
+    "id": "runway-audio",
+    "name": "Runway Audio",
+    "category": "Audio",
+    "pricing": "Paid",
+    "description": "Runway provides AI-based audio tools including sound isolation, background removal, voice enhancement, and generative effects.",
+    "logo": "/logos/runway-audio.png",
+    "website": "https://runwayml.com"
+  },
+  {
+    "id": "audiogen",
+    "name": "AudioGen",
+    "category": "Audio",
+    "pricing": "Free & Paid",
+    "description": "AudioGen is a text-to-sound model that produces AI-generated sound effects, music layers, environmental ambience, and Foley sounds.",
+    "logo": "/logos/audiogen.png",
+    "website": "https://audiogen.ai"
+  },
+
+  {
+    "id": "browseai",
+    "name": "Browse AI",
+    "category": "Automation",
+    "pricing": "Free & Paid",
+    "description": "Browse AI is a no-code web scraping and monitoring tool that extracts data and tracks website changes using robotic process automation.",
+    "logo": "/logos/browseai.png",
+    "website": "https://browse.ai"
+  },
+  {
+    "id": "zapier-ai",
+    "name": "Zapier AI",
+    "category": "Automation",
+    "pricing": "Free & Paid",
+    "description": "Zapier AI automates workflows with natural-language actions, generating automations, integrations, and triggers across 6000+ apps.",
+    "logo": "/logos/zapier.png",
+    "website": "https://zapier.com/ai"
+  },
+
+  {
+    "id": "superhuman-ai",
+    "name": "Superhuman AI",
+    "category": "Email",
+    "pricing": "Paid",
+    "description": "Superhuman AI speeds up email writing, sorting, prioritization, and reply suggestions with enterprise-grade automation.",
+    "logo": "/logos/superhuman.png",
+    "website": "https://superhuman.com"
+  },
+  {
+    "id": "heygen",
+    "name": "HeyGen",
+    "category": "Video",
+    "pricing": "Free & Paid",
+    "description": "HeyGen creates AI avatar videos, auto-translates content into multiple languages, and syncs lip movements using realistic generation.",
+    "logo": "/logos/heygen.png",
+    "website": "https://heygen.com"
+  },
+
+  {
+    "id": "adobe-firefly",
+    "name": "Adobe Firefly",
+    "category": "Image Generation",
+    "pricing": "Paid",
+    "description": "Adobe Firefly adds generative image creation, background replacement, vector recoloring, and style transfer tools inside Adobe Creative Cloud.",
+    "logo": "/logos/firefly.png",
+    "website": "https://www.adobe.com"
+  },
+
+  {
+    "id": "deepgram",
+    "name": "Deepgram",
+    "category": "Transcription",
+    "pricing": "Paid",
+    "description": "Deepgram offers ASR (Automatic Speech Recognition) APIs optimized for speed, accuracy, and large-scale voice transcription projects.",
+    "logo": "/logos/deepgram.png",
+    "website": "https://deepgram.com"
+  },
+
+  {
+    "id": "scribe",
+    "name": "Scribe AI",
+    "category": "Automation",
+    "pricing": "Free & Paid",
+    "description": "Scribe AI automatically records workflows and generates step-by-step documentation, complete with screenshots, instructions, and diagrams.",
+    "logo": "/logos/scribe.png",
+    "website": "https://scribehow.com"
+  },
+
+  {
+    "id": "resume.io-ai",
+    "name": "Resume.io AI",
+    "category": "Career",
+    "pricing": "Free & Paid",
+    "description": "Resume.io uses AI to optimize resumes, create job-aligned bullet points, and format professional CVs with ATS-friendly templates.",
+    "logo": "/logos/resumeio.png",
+    "website": "https://resume.io"
+  },
+
+  {
+    "id": "kickresume",
+    "name": "Kickresume",
+    "category": "Career",
+    "pricing": "Free & Paid",
+    "description": "Kickresume is an AI-powered resume, cover letter, and portfolio builder with templates designed for students, professionals, and managers.",
+    "logo": "/logos/kickresume.png",
+    "website": "https://kickresume.com"
+  },
+
+  {
+    "id": "photoroom",
+    "name": "PhotoRoom",
+    "category": "Design",
+    "pricing": "Free & Paid",
+    "description": "PhotoRoom is a professional AI photo editing tool specializing in background removal, product photography, and image enhancement for ecommerce.",
+    "logo": "/logos/photoroom.png",
+    "website": "https://photoroom.com"
+  },
+
+  {
+    "id": "imgcreator",
+    "name": "ImgCreator AI",
+    "category": "Image Generation",
+    "pricing": "Free & Paid",
+    "description": "ImgCreator AI creates illustrations, product shots, anime-style art, and social media graphics using advanced diffusion models.",
+    "logo": "/logos/imgcreator.png",
+    "website": "https://imgcreator.ai"
+  },
+
+  {
+    "id": "descript",
+    "name": "Descript",
+    "category": "Audio & Video",
+    "pricing": "Free & Paid",
+    "description": "Descript is a powerful AI video and audio editor offering overdub voice cloning, text-based editing, transcription, and multi-track editing.",
+    "logo": "/logos/descript.png",
+    "website": "https://www.descript.com"
+  },
+
+  {
+    "id": "scribeconvert",
+    "name": "ScribeConvert",
+    "category": "Document Q&A",
+    "pricing": "Free",
+    "description": "ScribeConvert transforms uploaded PDFs and documents into structured summaries, Q&A, key insights, and learning notes.",
+    "logo": "/logos/scribeconvert.png",
+    "website": "https://scribeconvert.ai"
+  },
+
+  {
+    "id": "playground",
+    "name": "Playground AI",
+    "category": "Image Generation",
+    "pricing": "Free & Paid",
+    "description": "Playground AI enables creative experimentation with image generation, filters, and AI editing tools for professional-quality artwork.",
+    "logo": "/logos/playground.png",
+    "website": "https://playgroundai.com"
+  },
+
+  {
+    "id": "genmo",
+    "name": "Genmo",
+    "category": "Video & Motion",
+    "pricing": "Free & Paid",
+    "description": "Genmo generates animated videos, GIFs, and visual effects from text prompts. It supports motion editing and cinematic compositions.",
+    "logo": "/logos/genmo.png",
+    "website": "https://genmo.ai"
+  }
+]

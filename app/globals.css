@@ -1,0 +1,48 @@
+@import "tailwindcss";
+
+/* ---------------------------------------
+   CSS VARIABLES FOR LIGHT + DARK MODE
+---------------------------------------- */
+
+/* Light Mode */
+html {
+  --background: #f8f9fc;
+  --foreground: #1a1a1a;   /* DARK text in light mode */
+}
+
+/* Dark Mode */
+html.dark {
+  --background: #0b0b0c;
+  --foreground: #ffffff;   /* Light text in dark mode */
+}
+
+
+/* ---------------------------------------
+   APPLY VARIABLES
+---------------------------------------- */
+
+body {
+  background-color: var(--background);
+  color: var(--foreground);
+  transition: background-color 0.25s ease, color 0.25s ease;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+/* Optional: smooth fonts */
+* {
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+.bg-app {
+  background-color: var(--background);
+}
+
+.text-app {
+  color: var(--foreground);
+}
+
+.card-app {
+  background-color: var(--background);
+  color: var(--foreground);
+}
